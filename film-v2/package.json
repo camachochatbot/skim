@@ -1,0 +1,20 @@
+{
+  "name": "skim-incoming-film-v2",
+  "version": "1.0.0",
+  "description": "SKIM Incoming V2: procedural alpine campaign with nine animated interfaces",
+  "scripts": {
+    "render": "python soundtrack.py && python render.py",
+    "preview": "python render.py --preview",
+    "verify": "python verify.py",
+    "vendor": "python vendor.py",
+    "layout": "python inspect_layout.py"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "type": "commonjs",
+  "dependencies": {
+    "gsap": "3.12.5",
+    "three": "0.170.0"
+  }
+}

@@ -1,0 +1,4 @@
+GSAP 3.12.5. Copyright 2008-2024, GreenSock. All rights reserved.
+Subject to the terms at https://gsap.com/standard-license
+See the upstream README and package metadata included here.
+Original copyright notices are retained in each module.

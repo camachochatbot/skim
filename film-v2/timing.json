@@ -1,0 +1,256 @@
+{
+  "title": "SKIM Incoming · Todo conectado · V2",
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "duration": 15,
+  "seed": 4182,
+  "audio": {
+    "bpm": 120,
+    "sample_rate": 48000,
+    "key": "Fa menor",
+    "transition_seconds": [
+      3,
+      7,
+      11
+    ]
+  },
+  "scenes": [
+    {
+      "id": "cumbre",
+      "start": 0,
+      "end": 3,
+      "text": [
+        "Tu grupo.",
+        "La Molina."
+      ],
+      "action": "Vuelo alpino, huellas SKIM y mapa de destino"
+    },
+    {
+      "id": "descenso",
+      "start": 3,
+      "end": 7,
+      "text": [
+        "Todo listo",
+        "para disfrutar."
+      ],
+      "action": "Cámara de seguimiento, polvo de nieve, forfait, equipo 3D y clases"
+    },
+    {
+      "id": "base",
+      "start": 7,
+      "end": 11,
+      "text": [
+        "Vosotros disfrutáis.",
+        "SKIM coordina."
+      ],
+      "action": "Base alpina, autobús, red de coordinación e interfaces conectadas"
+    },
+    {
+      "id": "cierre",
+      "start": 11,
+      "end": 15,
+      "text": [
+        "SKIM",
+        "INCOMING",
+        "Organiza el viaje",
+        "de tu grupo."
+      ],
+      "action": "Constelación de servicios, wordmark y CTA sostenidos"
+    }
+  ],
+  "interfaces": [
+    {
+      "id": "destination",
+      "in": 0.45,
+      "out": 2.8,
+      "from": [
+        100,
+        30,
+        -12
+      ],
+      "to": [
+        0,
+        0,
+        -5
+      ]
+    },
+    {
+      "id": "pass",
+      "in": 4.0,
+      "out": 6.78,
+      "from": [
+        -160,
+        120,
+        -30
+      ],
+      "to": [
+        0,
+        0,
+        -7
+      ]
+    },
+    {
+      "id": "gear",
+      "in": 4.35,
+      "out": 6.82,
+      "from": [
+        180,
+        100,
+        25
+      ],
+      "to": [
+        0,
+        0,
+        5
+      ]
+    },
+    {
+      "id": "lesson",
+      "in": 5.35,
+      "out": 6.88,
+      "from": [
+        0,
+        100,
+        0
+      ],
+      "to": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "coord",
+      "in": 7.1,
+      "out": 10.85,
+      "from": [
+        -120,
+        0,
+        -15
+      ],
+      "to": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "stay",
+      "in": 7.35,
+      "out": 10.85,
+      "from": [
+        130,
+        -70,
+        12
+      ],
+      "to": [
+        0,
+        0,
+        3
+      ]
+    },
+    {
+      "id": "meals",
+      "in": 8.0,
+      "out": 10.88,
+      "from": [
+        130,
+        70,
+        12
+      ],
+      "to": [
+        0,
+        0,
+        -3
+      ]
+    },
+    {
+      "id": "cover",
+      "in": 8.65,
+      "out": 10.9,
+      "from": [
+        -40,
+        80,
+        -10
+      ],
+      "to": [
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "id": "network",
+      "in": 11.05,
+      "out": 15.5,
+      "from": [
+        200,
+        0,
+        12
+      ],
+      "to": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "camera": {
+    "intro_start": [
+      125,
+      130,
+      210
+    ],
+    "intro_end": [
+      40,
+      85,
+      110
+    ],
+    "intro_target_start": [
+      0,
+      125,
+      -450
+    ],
+    "intro_target_end": [
+      0,
+      100,
+      -350
+    ],
+    "follow_offset": [
+      6,
+      3.6,
+      -11
+    ],
+    "village_start": [
+      64,
+      35,
+      87
+    ],
+    "village_end": [
+      48,
+      28,
+      74
+    ],
+    "village_target": [
+      14,
+      10,
+      9
+    ],
+    "final_start": [
+      75,
+      80,
+      155
+    ],
+    "final_end": [
+      82,
+      88,
+      170
+    ],
+    "final_target": [
+      0,
+      115,
+      -350
+    ]
+  }
+}
