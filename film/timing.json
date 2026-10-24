@@ -1,0 +1,190 @@
+{
+  "title": "SKIM Incoming — Tu grupo. La Molina.",
+  "duration": 15,
+  "fps": 60,
+  "width": 1920,
+  "height": 1080,
+  "seed": 7281,
+  "audio": {
+    "bpm": 128,
+    "sample_rate": 48000,
+    "key": "Re menor",
+    "transition_seconds": [
+      3,
+      7,
+      11
+    ]
+  },
+  "scenes": [
+    {
+      "id": "cumbre",
+      "start": 0,
+      "end": 3,
+      "text": [
+        "Tu grupo.",
+        "La Molina."
+      ],
+      "action": "Travelling de cumbre; trazos de esquí dibujan el nombre SKIM"
+    },
+    {
+      "id": "descenso",
+      "start": 3,
+      "end": 7,
+      "text": [
+        "Todo listo",
+        "para disfrutar."
+      ],
+      "action": "Seguimiento del esquiador; giro hacia forfait, esquís y escuela"
+    },
+    {
+      "id": "refugio",
+      "start": 7,
+      "end": 11,
+      "text": [
+        "Vosotros disfrutáis.",
+        "SKIM coordina."
+      ],
+      "action": "Órbita del refugio: autobús de grupo, mesa, conexiones y escudo de seguro"
+    },
+    {
+      "id": "cierre",
+      "start": 11,
+      "end": 15,
+      "text": [
+        "SKIM",
+        "INCOMING",
+        "Organiza el viaje",
+        "de tu grupo."
+      ],
+      "action": "Reunión del paisaje completo; cierre sostenido con CTA"
+    }
+  ],
+  "camera": [
+    {
+      "t": 0,
+      "p": [
+        67,
+        43,
+        75
+      ],
+      "q": [
+        -5,
+        13,
+        -6
+      ],
+      "f": 40
+    },
+    {
+      "t": 2.5,
+      "p": [
+        47,
+        31,
+        57
+      ],
+      "q": [
+        1,
+        13,
+        -7
+      ],
+      "f": 38
+    },
+    {
+      "t": 3.2,
+      "p": [
+        16,
+        24,
+        5
+      ],
+      "q": [
+        -4,
+        17,
+        -17
+      ],
+      "f": 40
+    },
+    {
+      "t": 4.4,
+      "p": [
+        26,
+        25,
+        35
+      ],
+      "q": [
+        4,
+        15,
+        -3
+      ],
+      "f": 39
+    },
+    {
+      "t": 5.7,
+      "p": [
+        26,
+        25,
+        34
+      ],
+      "q": [
+        3,
+        15,
+        -1
+      ],
+      "f": 38
+    },
+    {
+      "t": 7,
+      "p": [
+        47,
+        28,
+        57
+      ],
+      "q": [
+        17,
+        5,
+        24
+      ],
+      "f": 39
+    },
+    {
+      "t": 9.8,
+      "p": [
+        43,
+        26,
+        57
+      ],
+      "q": [
+        17,
+        5,
+        24
+      ],
+      "f": 39
+    },
+    {
+      "t": 11,
+      "p": [
+        59,
+        40,
+        72
+      ],
+      "q": [
+        3,
+        9,
+        6
+      ],
+      "f": 39
+    },
+    {
+      "t": 15,
+      "p": [
+        64,
+        43,
+        75
+      ],
+      "q": [
+        3,
+        9,
+        6
+      ],
+      "f": 39
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "skim-incoming-film",
+  "version": "1.0.0",
+  "description": "Procedural original 15-second winter sports campaign",
+  "scripts": {
+    "render": "python soundtrack.py && python render.py",
+    "preview": "python render.py --preview",
+    "verify": "python verify.py",
+    "vendor": "python vendor.py"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "type": "commonjs",
+  "dependencies": {
+    "gsap": "3.12.5",
+    "three": "0.170.0"
+  }
+}
